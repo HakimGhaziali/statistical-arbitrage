@@ -32,7 +32,7 @@ class SATORI:
     
 
     def authentication(self):
-                if not mt5.initialize(login=15160797, server="Alpari-MT5" ,password="273013cC@000"):
+                if not mt5.initialize():
                      print('this is error code', mt5.last_error())
                      quit()
 
